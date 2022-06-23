@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 import indigo from '@material-ui/core/colors/indigo';
 import pink from '@material-ui/core/colors/pink';
-
+import Header from './header';
 import './App.css';
 import DwvComponent from './DwvComponent';
 
@@ -24,9 +24,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
-        <div className="App">
+          <Header/>
           <DwvComponent />
-        </div>
       </MuiThemeProvider>
     );
   }
