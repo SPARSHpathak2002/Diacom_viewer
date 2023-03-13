@@ -907,7 +907,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.6", "@babel/runtime@^7.16.3", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.17.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.17.2.tgz"
   dependencies:
@@ -2755,12 +2755,6 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cross-fetch@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.4.tgz"
-  dependencies:
-    node-fetch "2.6.1"
-
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -3244,13 +3238,10 @@ duplexer@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz"
 
-dwv@0.30.8:
-  version "0.30.8"
-  resolved "https://registry.npmjs.org/dwv/-/dwv-0.30.8.tgz"
+dwv@0.31.0:
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/dwv/-/dwv-0.31.0.tgz#c9777291774d49225ba0c1b8020d104f09312ebf"
   dependencies:
-    i18next "~20.6.0"
-    i18next-browser-languagedetector "~6.1.2"
-    i18next-http-backend "~1.3.1"
     jszip "~3.7.0"
     konva "~8.3.0"
     magic-wand-tool "~1.1.7"
@@ -4217,24 +4208,6 @@ human-signals@^2.1.0:
 hyphenate-style-name@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
-
-i18next-browser-languagedetector@~6.1.2:
-  version "6.1.2"
-  resolved "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-6.1.2.tgz"
-  dependencies:
-    "@babel/runtime" "^7.14.6"
-
-i18next-http-backend@~1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/i18next-http-backend/-/i18next-http-backend-1.3.1.tgz"
-  dependencies:
-    cross-fetch "3.1.4"
-
-i18next@~20.6.0:
-  version "20.6.1"
-  resolved "https://registry.npmjs.org/i18next/-/i18next-20.6.1.tgz"
-  dependencies:
-    "@babel/runtime" "^7.12.0"
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -5496,10 +5469,6 @@ no-case@^3.0.4:
   dependencies:
     lower-case "^2.0.2"
     tslib "^2.0.3"
-
-node-fetch@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
 
 node-fetch@^2.6.5:
   version "2.6.6"
